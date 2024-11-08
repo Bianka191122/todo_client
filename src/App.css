@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    background: #8360c3;
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
+    background: linear-gradient(to right, #2ebf91, #8360c3);
+    min-height: 100vh;
+    padding-top: 20px;
+}
+
+.login {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.header {
+    text-align: center;
+}
+
+.addtodo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.textfield {
+    border-radius: 10px;
+}
+
+.button {
+    height: 40px;
+}
